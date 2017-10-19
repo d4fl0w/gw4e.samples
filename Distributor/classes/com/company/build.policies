@@ -1,0 +1,4 @@
+#Format --> GRAPHFILE=PATHGENERATOR;SEVERITYFLAG;PATHGENERATOR1;SEVERITYFLAG1;...
+
+DrinkDispenser.json=RandomPath(EdgeCoverage(100));I;RandomPath(TimeDuration(30));I;AStarPath(ReachedVertex(v_deliver));I;
+
