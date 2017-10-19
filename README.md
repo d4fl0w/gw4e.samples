@@ -1,2 +1,2 @@
 # gw4e.sample
-Sample for GW4E
+Samples for GW4E
