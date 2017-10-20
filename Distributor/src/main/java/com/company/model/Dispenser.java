@@ -23,9 +23,11 @@ public class Dispenser {
 		this.setGiveBackAmount(insertedAmount - item.getAmount());
 		return this.getGiveBackAmount();
 	}
-
+	
 	public boolean needGiveBack () {
-		return giveBack()>0;
+		boolean b = giveBack()>0;
+		System.out.println(b);
+		return b;
 	}
 
 	public boolean exactAmount () {
