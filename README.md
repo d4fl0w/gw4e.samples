@@ -7,7 +7,7 @@ The Model Based Testing (MBT) is a test practice in the software industry to inc
 their coverage of the requirements and in the productivity for creating and maintaining test repositories.
 Model Based Testing improves the test process by piloting the creation and maintenance of tests from modeling for the test.
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![MBT](https://github.com/gw4e/gw4e.samples/blob/master/mbt.png "MBT")
 
 
 The model describes all or part of the system. From the model are derived the abstract tests that are the basis of 
