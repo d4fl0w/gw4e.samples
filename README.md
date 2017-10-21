@@ -54,8 +54,8 @@ test is stopped. If vertex is traversed more than one time, it still counts as 1
 #### Generator and Stop conditions usage
 You have two options when using Generator and Stop Conditions.
 1. You use it in the GraphWalker annotation
-![GraphWalker annotation](https://github.com/gw4e/gw4e.samples/blob/master/images/gwannotation.png "GraphWalker annotation")
+![GraphWalker annotation](https://github.com/gw4e/gw4e.samples/blob/master/images/graphwalkerannotation.png "GraphWalker annotation")
 2. You use them with api in your test
-![Generator and Stop condition Apis](https://github.com/gw4e/gw4e.samples/blob/master/images/genstopapi.png "Generator and Stop condition Apis")
+![Generator and Stop condition Apis](https://github.com/gw4e/gw4e.samples/blob/master/images/generatorstopconditionapi.png "Generator and Stop condition Apis")
 
 ## The Distributor Sample.
