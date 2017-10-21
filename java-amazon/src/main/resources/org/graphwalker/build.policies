@@ -1,0 +1,4 @@
+#Format --> GRAPHFILE=PATHGENERATOR;SEVERITYFLAG;PATHGENERATOR1;SEVERITYFLAG1;...
+
+ShoppingCart.json=a_star(reached_vertex(v_ShoppingCart));I;RandomPath(TimeDuration(30));I;RandomPath(EdgeCoverage(100));I;
+

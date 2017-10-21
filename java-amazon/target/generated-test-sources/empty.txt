@@ -1,0 +1,1 @@
+{"/Users/hamma/gw4e/gw4e.samples/java-amazon/src/test/resources/empty.txt":{"modified":1508514936000,"generated":false}}
