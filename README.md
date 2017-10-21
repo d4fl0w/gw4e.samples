@@ -42,7 +42,7 @@ Same as the random path generator (see above), but, will use the weight property
 is an edge property, and it represents the probability of an edge getting chosen.
 
 #### Stop conditions
-There are many stop condition offered by GraphWalker. The following are two examples :
+There are many stop conditions offered by GraphWalker. The following are two examples :
 ##### edge_coverage( an integer representing percentage of desired edge coverage )
 The stop criteria is a percentage number. When, during execution, the percentage of traversed edges is reached, the test
  is stopped. If an edge is traversed more than one time, it still counts as 1, when calculating the percentage coverage.
@@ -59,3 +59,22 @@ You have two options when using Generator and Stop Conditions.
 ![Generator and Stop condition Apis](https://github.com/gw4e/gw4e.samples/blob/master/images/generatorstopconditionapi.png "Generator and Stop condition Apis")
 
 ## The Distributor Sample.
+
+Problem Description 
+Create a simple simulator of an automatic item dispensing machine. The machine maintains an inventory 
+of item with fixed prices, and is able to dispense a fixed set of possible items with different amounts.
+The user can select an item or deselect it if needed. He/She inserts coins and when enough money have been inserted in the machine 
+the item is ready to be delivered. When the total amount of inserted coins is upper than the item price, then the machine gives back the difference. 
+
+This sample shows how to modelize this and how it is derived to generate a test. 
+
+![Items Dispenser](https://github.com/gw4e/gw4e.samples/blob/master/images/dispenser.png "Items Dispenser")
+
+
+
+## The Amazon Sample.
+
+
+
+
+
