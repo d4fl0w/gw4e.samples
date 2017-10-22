@@ -2,7 +2,7 @@ Before running this test, you should go the current directory of this sample to 
 ```
 mvn clean install -DskipTests=true
 ``` 
-This will download the required Selenium dependencies.
+This will download the required dependencies.
 
 1. Import this project into Eclipse
 2. Switch to the GW4E perspective
