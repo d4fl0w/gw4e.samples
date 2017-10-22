@@ -35,7 +35,9 @@ import com.company.model.Dispenser;
 import com.company.model.User;
 
 @Generated (value ="src/test/resources/com/company/DrinkDispenser.json")
+
 @GraphWalker(value = "a_star(reached_vertex(v_deliver))", start = "Start", groups = { "default" })
+
 public class DrinkDispenserImpl1508604394678 extends ExecutionContext implements DrinkDispenser {
 
 	public final static Path MODEL_PATH = Paths.get("com/company/DrinkDispenser.json");
