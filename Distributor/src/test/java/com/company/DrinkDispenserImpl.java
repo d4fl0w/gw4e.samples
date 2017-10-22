@@ -130,6 +130,7 @@ public class DrinkDispenserImpl extends ExecutionContext implements DrinkDispens
 	@org.graphwalker.java.annotation.BeforeExecution
 	public void _beforeExecution() {
 		System.out.println("Executing: _beforeExecution");
+	// the javascript object are created in the Init of the v_wait vertex in order to be able to run an offline test
 	//	this.setAttribute("dispenser", new Dispenser());
 	//	this.setAttribute("user", new User());
 	}

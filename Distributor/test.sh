@@ -1,1 +1,0 @@
-java org.graphwalker.cli.CLI -classpath /Users/hamma/gw4e/gw4e.samples/Distributor/graphwalker-cli-4.0.0-SNAPSHOT.jar
