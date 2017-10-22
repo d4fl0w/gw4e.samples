@@ -92,5 +92,7 @@ The preconditions are 'There must be a book in the shopping cart'
 2. The user deletes one of the books from the shopping cart.
 As result, there should be 1 book less in the shopping cart
 
+This sample shows how to modelize this and how it is derived to generate a test.
+
 ![Amazon Shopping Cart](https://github.com/gw4e/gw4e.samples/blob/master/images/javaamazon.png "Amazon Shopping Cart")
 
