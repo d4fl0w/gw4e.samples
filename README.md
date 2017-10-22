@@ -86,9 +86,9 @@ As result, there should be 1 book in the cart.
 
 There is an alternative path: 'Removing a book from the shopping cart'.
 
-1. The preconditions are 'There must be a book in the shopping cart'
-2. The user browses to view the shopping cart.
-3. The user deletes one of the books from the shopping cart.
+The preconditions are 'There must be a book in the shopping cart'
+1. The user browses to view the shopping cart.
+2. The user deletes one of the books from the shopping cart.
 As result, there should be 1 book less in the shopping cart
 
 
