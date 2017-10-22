@@ -9,10 +9,10 @@ import org.graphwalker.java.annotation.Edge;
 public interface ShoppingCart {
 
     @Edge()
-    void e_ClickBook();
+    void e_AddBookToCart();
 
     @Edge()
-    void e_AddBookToCart();
+    void e_ClickBook();
 
     @Vertex()
     void v_BookInformation();
