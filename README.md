@@ -69,11 +69,21 @@ This sample shows how to modelize this and how it is derived to generate a test.
 
 ![Items Dispenser](https://github.com/gw4e/gw4e.samples/blob/master/images/dispenser.png "Items Dispenser")
 
-
-
-## The Amazon Sample.
-
-
+## The Amazon ShoppingCart Sample.
+This is a test that runs on the Amazon web site.
+The use case is about 'Adding books to the shopping cart'.
+The preconditions are 'A working Internet connection' and 'an installed Internet browser, like Chrome'.
+1.The user browses to the Amazon site: http://www.amazon.com.
+2.The user searches Amazon for books, using the string “model-based testing”. The site should return several hits.
+3.The user selects one of the books. The site displays information about the book.
+4.The user adds 1 book to the shopping cart.
+5.The user selects to view his shopping cart.
+As result, there should be 1 book in the cart.
+There is an alternative path: 'Removing a book from the shopping cart'.
+1.The preconditions are 'There must be a book in the shopping cart'
+2.The user browses to view the shopping cart.
+3.The user deletes one of the books from the shopping cart.
+As result, there should be 1 book less in the shopping cart
 
 
 
