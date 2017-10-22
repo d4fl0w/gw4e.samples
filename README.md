@@ -60,7 +60,6 @@ You have two options when using Generator and Stop Conditions.
 
 ## The Distributor Sample.
 
-Problem Description 
 Create a simple simulator of an automatic item dispensing machine. The machine maintains an inventory 
 of item with fixed prices, and is able to dispense a fixed set of possible items with different amounts.
 The user can select an item or deselect it if needed. He/She inserts coins and when enough money have been inserted in the machine 
