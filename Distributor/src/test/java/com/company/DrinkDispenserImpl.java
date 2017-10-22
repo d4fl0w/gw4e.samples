@@ -130,8 +130,8 @@ public class DrinkDispenserImpl extends ExecutionContext implements DrinkDispens
 	@org.graphwalker.java.annotation.BeforeExecution
 	public void _beforeExecution() {
 		System.out.println("Executing: _beforeExecution");
-		this.setAttribute("dispenser", new Dispenser());
-		this.setAttribute("user", new User());
+	//	this.setAttribute("dispenser", new Dispenser());
+	//	this.setAttribute("user", new User());
 	}
 
 	@org.graphwalker.java.annotation.AfterExecution
