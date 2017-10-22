@@ -1,8 +1,11 @@
 This is a dedicated GW4E version of the GraphWalker Amazon sample.
 
 Before running this test, you should go the current directory of this sample to issue the following maven command :
+```
+mvn clean install -DskipTests=true
+``` 
 This will download the required Selenium dependencies.
-
+ 
 1. Import this project into Eclipse
 2. Switch to the GW4E perspective
 3. Open the *ava-amazon/src/main/resources/org/graphwalker/ShoppingCart.json* file ont he graph model editor

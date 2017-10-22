@@ -1,4 +1,7 @@
 Before running this test, you should go the current directory of this sample to issue the following maven command :
+```
+mvn clean install -DskipTests=true
+``` 
 This will download the required Selenium dependencies.
 
 1. Import this project into Eclipse
