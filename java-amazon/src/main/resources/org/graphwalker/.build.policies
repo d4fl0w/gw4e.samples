@@ -1,2 +1,0 @@
-ShoppingCart.json=1508682584570:java-amazon;/java-amazon/src/main/resources/org/graphwalker/ShoppingCart.json;/java-amazon/src/main/resources/org/graphwalker/build.policies;a_star(reached_vertex(v_ShoppingCart));I;java-amazon;/java-amazon/src/main/resources/org/graphwalker/ShoppingCart.json;/java-amazon/src/main/resources/org/graphwalker/build.policies;RandomPath(TimeDuration(30));I;java-amazon;/java-amazon/src/main/resources/org/graphwalker/ShoppingCart.json;/java-amazon/src/main/resources/org/graphwalker/build.policies;RandomPath(EdgeCoverage(100));I;
-
