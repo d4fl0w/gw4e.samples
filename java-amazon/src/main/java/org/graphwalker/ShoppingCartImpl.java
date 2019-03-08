@@ -37,7 +37,7 @@ import org.junit.Test;
  */
 
 @Generated(value = "src/main/resources/org/graphwalker/ShoppingCart.json")
-@GraphWalker(value = "a_star(reached_vertex(v_ShoppingCart))", start = "e_StartBrowser")
+@GraphWalker(value = "random(edge_coverage(100))", start = "e_StartBrowser")
 public class ShoppingCartImpl extends ShoppingCartContext   {
 
 	public final static Path MODEL_PATH = Paths.get("org/graphwalker/ShoppingCart.json");
