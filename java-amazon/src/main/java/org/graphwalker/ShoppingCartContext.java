@@ -81,11 +81,12 @@ public class ShoppingCartContext extends ExecutionContext implements ShoppingCar
         waiter = new WebDriverWait(driver, 10);
     }
 
-    public void v_SearchResult() {
+   public void v_SearchResult() {
         waiter.until(ExpectedConditions.presenceOfElementLocated(By.linkText("Practical Model-Based Testing: A Tools Approach")));
         waiter.until(ExpectedConditions.visibilityOfElementLocated(By.id("search")));
         waiter.until(ExpectedConditions.visibilityOfElementLocated(By.className("navFooterVerticalColumn")));
     }
+
 
     public void v_ShoppingCart() {
         waiter.until(ExpectedConditions.titleContains("Amazon.com"));
